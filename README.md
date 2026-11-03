@@ -10,6 +10,24 @@ This repository is being prepared for author and peer review. It does not assert
 an archival DOI or a software reuse license. Existing reference results and new runs are
 different artifacts; see [reproducibility notes](docs/REPRODUCIBILITY.md).
 
+[Quick start](#start-here) · [Code modules](#repository-layout) · [Data downloads](docs/DATA.md) · [Validation](docs/VALIDATION.md)
+
+## Workflow overview
+
+<p align="center">
+  <a href="docs/assets/repmobo-workflow.jpg">
+    <img src="docs/assets/repmobo-workflow.jpg" width="1000" alt="RepMOBO study workflow: MOF library curation and adsorption targets; representation benchmarking; Gaussian-process optimization with qEHVI or Greedy; downstream synthesis and experimental characterization.">
+  </a>
+</p>
+
+**Figure 1 | RepMOBO study workflow.** The manuscript overview connects MOF library
+construction, representation benchmarking, Bayesian optimization and downstream experimental
+validation. Click the figure to view it at full size.
+
+The four repository modules cover preprocessing, representation benchmarking, oracle Pareto
+analysis and optimization. The optimizer queries supplied adsorption labels; it does not
+launch GCMC simulations, synthesis or experimental characterization.
+
 ## Start here
 
 The core optimization inputs are included in Git: no separate data download is needed

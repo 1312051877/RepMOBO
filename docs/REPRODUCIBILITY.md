@@ -34,6 +34,14 @@ The original combined README was replaced by a repository landing page and modul
 location. Modified Python scripts have a separate packaged SHA256. Release archives preserve
 the original repository-relative paths so extraction does not require moving individual files.
 
+## Workflow figure
+
+`assets/repmobo-workflow.jpg` is the embedded Figure 1 image extracted unchanged from
+page 4 of the submitted manuscript PDF. It is a study overview, not an assertion that
+all illustrated experimental or upstream simulation steps are implemented in this repository.
+No scientific content, labels or visual panels were redrawn. The README links the figure to
+the scope of the four code modules.
+
 ## Limits
 
 - The preprocessing descriptor workbook used before edge-case filtering is not supplied.
