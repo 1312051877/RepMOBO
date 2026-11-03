@@ -1,0 +1,52 @@
+{
+  "task_id": "Greedy_Hybrid_PCA85_58D_ARDon_batch10_seed789",
+  "method": "Greedy",
+  "feature_type": "Hybrid_PCA85_58D",
+  "pca_variance": 0.85,
+  "latent_dim": 58,
+  "ARD": true,
+  "kernel": "Matern52",
+  "batch_size": 10,
+  "internal_batch_mode": "sequential_greedy",
+  "seed": 789,
+  "initial_size": 100,
+  "max_budget": 1506,
+  "budget_points": [
+    226,
+    377,
+    753,
+    1130,
+    1506
+  ],
+  "budget_labels": {
+    "226": "3pct",
+    "377": "5pct",
+    "753": "10pct",
+    "1130": "15pct",
+    "1506": "20pct"
+  },
+  "objectives": [
+    "CEES_true",
+    "DMMP_true",
+    "EtCl_true"
+  ],
+  "objective_direction": "maximize",
+  "acquisition_function": "qEHVI_sequential_greedy",
+  "selection_score_type": "qEHVI",
+  "normalization_method": "X already scaled; Y standardized inside each task for GP only",
+  "y_standardization": true,
+  "has_surrogate": true,
+  "dtype": "float64",
+  "oracle_reference_file": "data/oracle_reference.json",
+  "oracle_reference_id": "oracle_full_library_v1_manual_labels",
+  "reference_point_id": "min_minus_5pct_range_manual_labels",
+  "full_library_master_file": "data/full_library_master.csv",
+  "latent_coordinate_file": "data/latent_coordinates/Hybrid_PCA85_58D_latent.csv",
+  "initial_design_file": "data/initial_designs_checked.csv",
+  "task_output_dir": "results/tasks/Greedy_Hybrid_PCA85_58D_ARDon_batch10_seed789",
+  "output_dir": "AL_results/tasks/Greedy_Hybrid_PCA85_58D_ARDoff_batch10_seed42",
+  "candidate_screen_size": 2048,
+  "qehvi_mc_samples": 64,
+  "acq_chunk_size": 256,
+  "max_fit_iter": 75
+}

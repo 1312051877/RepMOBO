@@ -1,0 +1,10 @@
+{
+  "oracle_reference_id": "oracle_full_library_v1_manual_labels",
+  "reference_point": {
+    "CEES_true": -0.667355609,
+    "DMMP_true": -0.44731984575,
+    "EtCl_true": -0.43825058375000003
+  },
+  "reference_point_id": "min_minus_5pct_range_manual_labels",
+  "oracle_HV": 818.8243516316923
+}

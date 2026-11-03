@@ -1,0 +1,15 @@
+Metric,Target_1,Target_2,Value
+Dataset_Size,,,7532
+Top1pct_Count,CEES,,76
+Percentile_99_Threshold,CEES,,9.746236311
+Top1pct_Count,DMMP,,76
+Percentile_99_Threshold,DMMP,,6.3901609
+Top1pct_Count,EtCL,,76
+Percentile_99_Threshold,EtCL,,4.006768078
+Spearman,CEES,DMMP,0.470207405
+Spearman,CEES,EtCL,0.022027483
+Spearman,DMMP,EtCL,0.292051133
+Pareto_Layer_Count,1,,15
+Pareto_Layer_Count,2,,50
+Pareto_Layer_Count,3,,48
+Pareto_First3_Count,,,113
