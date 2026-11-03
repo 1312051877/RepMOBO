@@ -66,9 +66,10 @@ tables and Fig. 4/Fig. 5/SI numerical source data; these are not overwritten by 
 
 The repository contains core optimization data, small benchmark inputs, reference summaries
 and figure source data. The full CIF collection, large representation matrices and detailed
-query history are packaged separately for a repository Release. See [data access](docs/DATA.md)
-for filenames, extraction paths and checksum verification. Their remote availability is not
-assumed until the Release has been uploaded.
+query history are available as separate attachments in the
+[author-review data release](https://github.com/1312051877/RepMOBO/releases/tag/v0.1.0-review).
+See [data access](docs/DATA.md) for filenames, extraction paths and checksum verification.
+The repository and release are private; downloads require an account with access.
 
 ## Citation and reuse
 

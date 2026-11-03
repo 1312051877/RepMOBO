@@ -15,7 +15,8 @@ package was exercised in this local check.
 | Oracle input reader, including legacy EtCL header | Passed |
 | Three Release archives: CRC and every member SHA256 | Passed |
 | Original submission files unchanged | Passed; 7,697 files |
-| GitHub Actions, benchmark model fitting, GP/device fallback and full campaign | Not executed |
+| GitHub Actions: syntax, optimization inputs and task dry list | [Passed](https://github.com/1312051877/RepMOBO/actions/runs/41572405139) on commit `493dc0b` |
+| Benchmark model fitting, GP/device fallback and full campaign | Not executed |
 
 The input-only demo took 1.412 seconds in this local execution. Timing depends on hardware
 and does not estimate a full optimization run. No installation timing is asserted.

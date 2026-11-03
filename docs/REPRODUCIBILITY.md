@@ -39,5 +39,5 @@ the original repository-relative paths so extraction does not require moving ind
 - The preprocessing descriptor workbook used before edge-case filtering is not supplied.
 - Zeo++ requires a separate compatible installation; its driver retains Windows/Cygwin assumptions.
 - Benchmark training, GP optimization and the full 105-task campaign were not rerun for packaging.
-- GitHub Actions is configured for syntax/input checks only; a local pass does not imply a cloud pass.
+- GitHub Actions checks syntax, inputs and the task dry list only. Its successful run is linked in `VALIDATION.md`; it does not reproduce model fitting or the optimization campaign.
 - A public license, third-party redistribution clearance and publication citation metadata require author confirmation.
