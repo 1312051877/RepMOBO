@@ -87,7 +87,7 @@ and figure source data. The full CIF collection, large representation matrices a
 query history are available as separate attachments in the
 [author-review data release](https://github.com/1312051877/RepMOBO/releases/tag/v0.1.0-review).
 See [data access](docs/DATA.md) for filenames, extraction paths and checksum verification.
-The repository and release are private; downloads require an account with access.
+The repository and release are publicly accessible; no GitHub account is required to download them.
 
 ## Citation and reuse
 
